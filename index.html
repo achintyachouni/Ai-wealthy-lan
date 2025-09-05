@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <title>AI Wealth Blueprint — eBook</title>
+  <meta name="description" content="AI Wealth Blueprint — 365-day step-by-step roadmap to build multiple AI-driven income streams. eBook + templates + prompts." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">AI</div>
+        <div class="title-wrap">
+          <div class="title">AI Wealth Blueprint</div>
+          <div class="subtitle">365-day Roadmap • eBook + Templates</div>
+        </div>
+      </div>
+
+      <!-- mobile hamburger -->
+      <button id="menuBtn" class="menu-btn" aria-expanded="false" aria-label="Open menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn primary small-cta" href="#purchase">Buy ₹39</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <div class="kicker">LAUNCH OFFER — LIMITED</div>
+        <h1>AI Wealth Blueprint — A 365-Day Roadmap to ₹1 Crore</h1>
+        <p class="lead">Daily tasks, templates, ChatGPT prompts, ad swipe files and automation blueprints — everything you need to start and scale fast.</p>
+
+        <div class="price-row">
+          <div class="price-badge">Intro Price <span class="price">₹39</span></div>
+        </div>
+
+        <div class="cta-row">
+          <button id="buyBtn" class="btn primary large-cta">Buy Now — ₹39</button>
+          <button id="previewBtn" class="btn ghost">Preview Sample</button>
+        </div>
+
+        <div id="features" class="features">
+          <div class="feature">
+            <h4>Daily Roadmap</h4>
+            <p>365 clear, actionable tasks — follow day-by-day to build and scale income streams.</p>
+          </div>
+          <div class="feature">
+            <h4>Prompts & Templates</h4>
+            <p>Ready-to-use ChatGPT prompt packs, ad swipe files and email sequences.</p>
+          </div>
+          <div class="feature">
+            <h4>Automation Blueprints</h4>
+            <p>Email funnels, ad scripts and n8n/zapier flow examples for scaling.</p>
+          </div>
+        </div>
+
+        <div class="curriculum" id="syllabus">
+          <h3>What's inside</h3>
+          <ul>
+            <li>Part 1 — Foundation (Day 1–30): Tools, niche & brand setup</li>
+            <li>Part 2 — First Income (Day 31–90): Freelance, micro-products, YouTube</li>
+            <li>Part 3 — Scale & SaaS (Day 91–300): Ads, Automation, Agency & SaaS</li>
+            <li>Templates, prompt packs, checklists & worksheets</li>
+          </ul>
+        </div>
+      </div>
+
+      <aside class="hero-right">
+        <div class="product-shot" role="img" aria-label="eBook cover">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3d5d5fbf4c2c5d2e3f0a1b7c8f4a5b6c" alt="eBook mockup">
+        </div>
+
+        <div class="meta">
+          <div class="secure">Secure Payment • Instant Delivery</div>
+          <div class="trusted">Trusted by 1,200+ learners</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Reviews (card slider) -->
+    <section id="reviews" class="container reviews">
+      <h3>What learners say</h3>
+
+      <div class="slider">
+        <button class="slider-btn prev" id="prevReview" aria-label="Previous review">‹</button>
+
+        <div class="slider-track-wrap">
+          <ul class="slider-track" id="reviewsTrack" role="list">
+            <li class="slide card">
+              <p>"This roadmap changed my revenue — from ₹20k/month to ₹1.2L/month in 6 months."</p>
+              <footer>— Priya, Delhi</footer>
+            </li>
+            <li class="slide card">
+              <p>"Practical templates and prompt packs saved me dozens of hours."</p>
+              <footer>— Rohit, Mumbai</footer>
+            </li>
+            <li class="slide card">
+              <p>"Used the automation blueprints to build a recurring revenue product."</p>
+              <footer>— Sarah, London</footer>
+            </li>
+            <li class="slide card">
+              <p>"High-ticket coaching structure helped me scale to five-figures monthly."</p>
+              <footer>— Ankit, Bengaluru</footer>
+            </li>
+          </ul>
+        </div>
+
+        <button class="slider-btn next" id="nextReview" aria-label="Next review">›</button>
+      </div>
+
+      <div class="dots" id="reviewDots" aria-hidden="false"></div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="container faq">
+      <h3>FAQ</h3>
+      <div class="faq-item">
+        <button class="faq-q" data-target="a1">Is this just an eBook or a course too? <span class="faq-icon">+</span></button>
+        <div id="a1" class="faq-a">This is primarily a detailed eBook with templates & prompts. Some bundles include recorded videos and coaching add-ons.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-target="a2">How do I pay? <span class="faq-icon">+</span></button>
+        <div id="a2" class="faq-a">Payments are processed securely via Razorpay. The front-end opens checkout; order creation & verification happen on your server.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-target="a3">Refund policy? <span class="faq-icon">+</span></button>
+        <div id="a3" class="faq-a">7-day money-back guarantee if you are not satisfied. T&Cs apply.</div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="container bottom-cta" id="purchase">
+      <div>
+        <h4>Get instant access — AI Wealth Blueprint</h4>
+        <p>All prompts, templates and the complete 365-day plan.</p>
+      </div>
+      <div class="cta-block">
+        <div class="price-block">₹39</div>
+        <button id="buyBtn2" class="btn primary large-cta">Buy via Razorpay</button>
+      </div>
+    </section>
+
+    <footer class="site-footer container">
+      <div>© TechBuzz • All rights reserved</div>
+      <div class="links"><a href="#">Terms</a> <a href="#">Privacy</a></div>
+    </footer>
+  </main>
+
+  <!-- Modal Preview -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-body">
+      <button id="closeModal" class="modal-close" aria-label="Close preview">✕</button>
+      <h3>Free Sample — What you'll find inside</h3>
+      <p>Includes: Intro, Day 1–30 checklist and 3 ready-to-use ChatGPT prompts.</p>
+      <a class="btn primary" href="#purchase">Get Full Access</a>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
